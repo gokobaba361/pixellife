@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ece",
+    "name": "Ece",
+    "role": "Barista",
+    "locationId": "cafe",
+    "x": 445,
+    "y": 506,
+    "tint": "#ff6f91",
+    "relationship": 12,
+    "personality": "Sıcak, hızlı düşünen, insanları iyi okuyan.",
+    "professionReactions": {
+      "barista": "Tezgahın ritmini kapıyorsun.",
+      "developer": "Kasa sistemi yine takıldı, bir bakar mısın?",
+      "photographer": "Menü için yeni fotoğraflar lazım.",
+      "doctor": "Yoğun vardiyada herkes iyi mi diye sen fark ediyorsun.",
+      "interior_designer": "Kafenin köşesi biraz yenilenmek istiyor."
+    }
+  },
+  {
+    "id": "mert",
+    "name": "Mert",
+    "role": "Spor Eğitmeni",
+    "locationId": "gym",
+    "x": 580,
+    "y": 416,
+    "tint": "#66d9ef",
+    "relationship": 8,
+    "personality": "Enerjik, rekabetçi ama destekleyici.",
+    "professionReactions": {
+      "doctor": "Sağlıklı şehir etkinliği için birlikte çalışabiliriz.",
+      "photographer": "Spor salonu için dinamik bir çekim isterim.",
+      "barista": "Vardiya sonrası esnemeyi unutma."
+    }
+  },
+  {
+    "id": "lina",
+    "name": "Lina",
+    "role": "Fotoğrafçı",
+    "locationId": "park",
+    "x": 830,
+    "y": 408,
+    "tint": "#ffcf5a",
+    "relationship": 5,
+    "personality": "Gözlemci, yaratıcı, biraz içe dönük.",
+    "professionReactions": {
+      "photographer": "Bugün ışık çok iyi, birkaç kare yakalayalım.",
+      "interior_designer": "Yeni mekanları çekmek için gözün iyi olmalı.",
+      "barista": "Kafenin ürünlerini güzel gösterebiliriz."
+    }
+  },
+  {
+    "id": "deniz",
+    "name": "Deniz",
+    "role": "Yazılım Kulübü Lideri",
+    "locationId": "business",
+    "x": 705,
+    "y": 470,
+    "tint": "#7ad7ff",
+    "relationship": 4,
+    "personality": "Zeki, dağınık, çözüm odaklı.",
+    "professionReactions": {
+      "developer": "Bu bug'ı birlikte çözersek kulüpte adın duyulur.",
+      "photographer": "Portfolyo sitesi için yardıma ihtiyacım var.",
+      "interior_designer": "Akıllı ev fikri kulağa baya iyi geliyor."
+    }
+  },
+  {
+    "id": "selin",
+    "name": "Selin",
+    "role": "Dekor Danışmanı",
+    "locationId": "mall",
+    "x": 885,
+    "y": 610,
+    "tint": "#c68cff",
+    "relationship": 6,
+    "personality": "Detaycı, estetik, eleştirel ama iyi niyetli.",
+    "professionReactions": {
+      "interior_designer": "Oda düzeni konusunda iyi bir gözün var.",
+      "barista": "Kafe düzeni müşteri ruh halini değiştirir.",
+      "photographer": "Çekim köşesi tasarlamak ister misin?"
+    }
+  },
+  {
+    "id": "arda",
+    "name": "Dr. Arda",
+    "role": "Doktor",
+    "locationId": "hospital",
+    "x": 950,
+    "y": 388,
+    "tint": "#a7d8ff",
+    "relationship": 3,
+    "personality": "Sakin, ciddi, güvenilir.",
+    "professionReactions": {
+      "doctor": "İyi gözlem, doğru teşhisin yarısıdır.",
+      "developer": "Hasta kayıt sistemi için sade bir çözüm lazım.",
+      "barista": "Enerji dengesi sağlığın sessiz tarafıdır."
+    }
+  },
+  {
+    "id": "ayla",
+    "name": "Ayla",
+    "role": "Komşu",
+    "locationId": "home",
+    "x": 142,
+    "y": 468,
+    "tint": "#ffb86b",
+    "relationship": 10,
+    "personality": "Konuşkan, meraklı, topluluk odaklı.",
+    "professionReactions": {
+      "interior_designer": "Evinin düzenini merak ediyorum.",
+      "doctor": "Mahallede sağlık kontrolü iyi olurdu.",
+      "photographer": "Eski aile fotoğraflarını düzenler misin?"
+    }
+  },
+  {
+    "id": "bora",
+    "name": "Bora",
+    "role": "Kariyer Danışmanı",
+    "locationId": "business",
+    "x": 760,
+    "y": 470,
+    "tint": "#d9e2ff",
+    "relationship": 2,
+    "personality": "Planlı, profesyonel, hafif mesafeli.",
+    "professionReactions": {
+      "barista": "Hizmet kaliten kariyer panosunda görünüyor.",
+      "developer": "Teknik görevler için uygun görünüyorsun.",
+      "doctor": "Hastane gönüllülüğü iyi bir başlangıç."
+    }
+  },
+  {
+    "id": "nil",
+    "name": "Nil",
+    "role": "Mağaza Çalışanı",
+    "locationId": "mall",
+    "x": 825,
+    "y": 610,
+    "tint": "#ff9fd6",
+    "relationship": 5,
+    "personality": "Sosyal, stil sahibi, hızlı konuşan.",
+    "professionReactions": {
+      "photographer": "Yeni kombinleri çekmek ister misin?",
+      "interior_designer": "Vitrin düzeni için fikrin lazım.",
+      "barista": "Kafe üniformasını biraz canlandırabiliriz."
+    }
+  },
+  {
+    "id": "kerem",
+    "name": "Kerem",
+    "role": "Şehir Rehberi",
+    "locationId": "square",
+    "x": 545,
+    "y": 486,
+    "tint": "#9fe870",
+    "relationship": 7,
+    "personality": "Samimi, pratik, şehir hakkında bilgili.",
+    "professionReactions": {
+      "barista": "Kafe etkinliği seni bekliyor.",
+      "developer": "Meydan panosunu dijitale taşımak iyi fikir.",
+      "photographer": "Şehrin bugün güzel bir açısı var."
+    }
+  }
+]

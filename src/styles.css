@@ -1,0 +1,71 @@
+:root {
+  color: #f8efe7;
+  background: #060914;
+  font-family: Consolas, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 93, 111, 0.24), transparent 30rem),
+    radial-gradient(circle at 84% 88%, rgba(99, 209, 255, 0.16), transparent 28rem),
+    linear-gradient(135deg, #080b18 0%, #171128 54%, #071a25 100%);
+}
+
+#app {
+  display: grid;
+  min-height: 100vh;
+  justify-items: center;
+  align-items: start;
+  padding: 8px;
+}
+
+.game-frame {
+  width: min(100%, 1440px);
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgba(142, 164, 231, 0.34);
+  background: #070b17;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
+}
+
+#game {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#game canvas {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  image-rendering: pixelated;
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+  body {
+    overflow-y: auto;
+  }
+
+  .game-frame {
+    margin-top: 0;
+  }
+}

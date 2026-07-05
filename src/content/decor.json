@@ -1,0 +1,78 @@
+[
+  {
+    "id": "poster_photo",
+    "name": "Fotoğraf Panosu",
+    "cost": 45,
+    "scoreValue": 6,
+    "x": 980,
+    "y": 180,
+    "icon": "poster",
+    "professionAffinity": "photographer"
+  },
+  {
+    "id": "desk_computer",
+    "name": "Bilgisayar Masası",
+    "cost": 70,
+    "scoreValue": 8,
+    "x": 980,
+    "y": 300,
+    "icon": "desk",
+    "professionAffinity": "developer"
+  },
+  {
+    "id": "coffee_corner",
+    "name": "Kahve Köşesi",
+    "cost": 40,
+    "scoreValue": 5,
+    "x": 980,
+    "y": 420,
+    "icon": "coffee",
+    "professionAffinity": "barista"
+  },
+  {
+    "id": "study_shelf_neat",
+    "name": "Düzenli Çalışma Rafı",
+    "cost": 60,
+    "scoreValue": 7,
+    "x": 980,
+    "y": 540,
+    "icon": "shelf",
+    "professionAffinity": "doctor"
+  },
+  {
+    "id": "music_set",
+    "name": "Müzik Seti",
+    "cost": 55,
+    "scoreValue": 6,
+    "x": 600,
+    "y": 180,
+    "icon": "music"
+  },
+  {
+    "id": "aquarium",
+    "name": "Akvaryum",
+    "cost": 85,
+    "scoreValue": 9,
+    "x": 280,
+    "y": 320,
+    "icon": "aquarium"
+  },
+  {
+    "id": "plant_large",
+    "name": "Büyük Saksı",
+    "cost": 25,
+    "scoreValue": 3,
+    "x": 280,
+    "y": 420,
+    "icon": "plant"
+  },
+  {
+    "id": "lamp_floor",
+    "name": "Ayaklı Lamba",
+    "cost": 30,
+    "scoreValue": 4,
+    "x": 280,
+    "y": 520,
+    "icon": "lamp"
+  }
+]

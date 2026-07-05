@@ -1,0 +1,29 @@
+[
+  {
+    "id": "social",
+    "name": "Sosyal",
+    "description": "İnsanlarla hızlı tanışırsın. Park ve ilişki görevleri öne çıkar.",
+    "startingLocationId": "park",
+    "startingProfessionId": "photographer",
+    "reputationTag": "sosyal",
+    "statBoost": { "social": 8, "mood": 4 }
+  },
+  {
+    "id": "productive",
+    "name": "Üretken",
+    "description": "Çalışmayı ve beceri kazanmayı seversin. Kafe ve kariyer görevleri öne çıkar.",
+    "startingLocationId": "cafe",
+    "startingProfessionId": "barista",
+    "reputationTag": "caliskan",
+    "statBoost": { "money": 40, "skill": 4 }
+  },
+  {
+    "id": "creative",
+    "name": "Yaratıcı",
+    "description": "Güzel anlar, mekanlar ve tasarımlar peşindesin. Meydan ve AVM görevleri öne çıkar.",
+    "startingLocationId": "square",
+    "startingProfessionId": "interior_designer",
+    "reputationTag": "yaratici",
+    "statBoost": { "mood": 6, "skill": 5 }
+  }
+]

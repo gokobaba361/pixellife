@@ -1,0 +1,268 @@
+[
+  {
+    "id": "quest_home_settle",
+    "label": "Evine yerleş",
+    "target": 1,
+    "reward": { "mood": 6 },
+    "locationId": "home",
+    "npcId": "ayla",
+    "cityReputation": ["duzenli"]
+  },
+  {
+    "id": "quest_square_meet_kerem",
+    "label": "Meydanda Kerem ile tanış",
+    "target": 1,
+    "reward": { "social": 5 },
+    "locationId": "square",
+    "npcId": "kerem",
+    "cityReputation": ["sosyal"]
+  },
+  {
+    "id": "quest_cafe_first_shift",
+    "label": "Kafede 2 vardiya yap",
+    "target": 2,
+    "reward": { "money": 90, "mood": 5 },
+    "locationId": "cafe",
+    "npcId": "ece",
+    "professionTags": ["barista"],
+    "cityReputation": ["caliskan"]
+  },
+  {
+    "id": "quest_park_meet_lina",
+    "label": "Parkta Lina ile tanış",
+    "target": 1,
+    "reward": { "social": 10 },
+    "locationId": "park",
+    "npcId": "lina",
+    "professionTags": ["photographer"],
+    "cityReputation": ["sosyal", "yaratici"]
+  },
+  {
+    "id": "quest_school_first_lesson",
+    "label": "Okulda beceri kazan",
+    "target": 2,
+    "reward": { "skill": 8 },
+    "locationId": "school",
+    "professionTags": ["developer", "doctor"]
+  },
+  {
+    "id": "quest_business_meet_bora",
+    "label": "Bora ile kariyer konuş",
+    "target": 1,
+    "reward": { "skill": 6, "social": 3 },
+    "locationId": "business",
+    "npcId": "bora"
+  },
+  {
+    "id": "quest_mall_first_style",
+    "label": "AVM'de ilk tarzını seç",
+    "target": 1,
+    "reward": { "mood": 7 },
+    "locationId": "mall",
+    "npcId": "nil",
+    "cityReputation": ["yaratici"]
+  },
+  {
+    "id": "quest_gym_train_with_mert",
+    "label": "Mert ile antrenman yap",
+    "target": 1,
+    "reward": { "energy": 8, "skill": 3 },
+    "locationId": "gym",
+    "npcId": "mert"
+  },
+  {
+    "id": "quest_hospital_help_arda",
+    "label": "Dr. Arda'ya gönüllü yardım et",
+    "target": 1,
+    "reward": { "skill": 6, "social": 4 },
+    "locationId": "hospital",
+    "npcId": "arda",
+    "professionTags": ["doctor"],
+    "cityReputation": ["yardimsever"]
+  },
+  {
+    "id": "quest_cafe_signature_drink",
+    "label": "İmza içeceğini geliştir",
+    "target": 3,
+    "reward": { "money": 60, "skill": 4 },
+    "locationId": "cafe",
+    "npcId": "ece",
+    "professionTags": ["barista"],
+    "cityReputation": ["caliskan"]
+  },
+  {
+    "id": "quest_cafe_regulars",
+    "label": "Kafenin müdavimlerini tanı",
+    "target": 4,
+    "reward": { "money": 100, "social": 6 },
+    "locationId": "cafe",
+    "npcId": "ece",
+    "professionTags": ["barista"],
+    "cityReputation": ["caliskan", "sosyal"]
+  },
+  {
+    "id": "quest_business_first_bug",
+    "label": "İlk hatayı ayıkla",
+    "target": 2,
+    "reward": { "money": 20, "skill": 6 },
+    "locationId": "business",
+    "npcId": "deniz",
+    "professionTags": ["developer"],
+    "cityReputation": ["caliskan"]
+  },
+  {
+    "id": "quest_business_client_project",
+    "label": "Bir müşteri projesini teslim et",
+    "target": 3,
+    "reward": { "money": 70, "skill": 6 },
+    "locationId": "business",
+    "npcId": "deniz",
+    "professionTags": ["developer"],
+    "cityReputation": ["caliskan", "duzenli"]
+  },
+  {
+    "id": "quest_business_lead_dev",
+    "label": "Kulüpte teknik lider ol",
+    "target": 4,
+    "reward": { "money": 110, "skill": 8 },
+    "locationId": "business",
+    "npcId": "deniz",
+    "professionTags": ["developer"],
+    "cityReputation": ["caliskan"]
+  },
+  {
+    "id": "quest_park_first_shoot",
+    "label": "İlk fotoğraf serini çek",
+    "target": 2,
+    "reward": { "money": 30, "mood": 4 },
+    "locationId": "park",
+    "npcId": "lina",
+    "professionTags": ["photographer"],
+    "cityReputation": ["yaratici"]
+  },
+  {
+    "id": "quest_park_style_series",
+    "label": "Kendi tarzında bir seri oluştur",
+    "target": 3,
+    "reward": { "money": 55, "skill": 5 },
+    "locationId": "park",
+    "npcId": "lina",
+    "professionTags": ["photographer"],
+    "cityReputation": ["yaratici"]
+  },
+  {
+    "id": "quest_park_gallery_feature",
+    "label": "Şehir galerisinde yer al",
+    "target": 4,
+    "reward": { "money": 90, "social": 6 },
+    "locationId": "park",
+    "npcId": "lina",
+    "professionTags": ["photographer"],
+    "cityReputation": ["yaratici", "sosyal"]
+  },
+  {
+    "id": "quest_hospital_first_checkup",
+    "label": "İlk kontrollerini tamamla",
+    "target": 2,
+    "reward": { "money": 25, "skill": 4 },
+    "locationId": "hospital",
+    "npcId": "arda",
+    "professionTags": ["doctor"],
+    "cityReputation": ["yardimsever"]
+  },
+  {
+    "id": "quest_hospital_diagnosis_streak",
+    "label": "Teşhis serini sürdür",
+    "target": 3,
+    "reward": { "money": 50, "skill": 6 },
+    "locationId": "hospital",
+    "npcId": "arda",
+    "professionTags": ["doctor"],
+    "cityReputation": ["yardimsever"]
+  },
+  {
+    "id": "quest_hospital_head_volunteer",
+    "label": "Baş gönüllü ol",
+    "target": 4,
+    "reward": { "money": 85, "social": 6 },
+    "locationId": "hospital",
+    "npcId": "arda",
+    "professionTags": ["doctor"],
+    "cityReputation": ["yardimsever", "duzenli"]
+  },
+  {
+    "id": "quest_mall_first_consult",
+    "label": "İlk vitrin danışmanlığını yap",
+    "target": 2,
+    "reward": { "money": 30, "skill": 4 },
+    "locationId": "mall",
+    "npcId": "selin",
+    "professionTags": ["interior_designer"],
+    "cityReputation": ["yaratici"]
+  },
+  {
+    "id": "quest_mall_showcase_room",
+    "label": "Vitrin odasını tasarla",
+    "target": 3,
+    "reward": { "money": 55, "skill": 5 },
+    "locationId": "mall",
+    "npcId": "selin",
+    "professionTags": ["interior_designer"],
+    "cityReputation": ["yaratici", "duzenli"]
+  },
+  {
+    "id": "quest_mall_signature_style",
+    "label": "İmza tarzını şehre duyur",
+    "target": 4,
+    "reward": { "money": 95, "social": 5 },
+    "locationId": "mall",
+    "npcId": "selin",
+    "professionTags": ["interior_designer"],
+    "cityReputation": ["yaratici"]
+  },
+  {
+    "id": "quest_home_together",
+    "label": "Ayla ile mahalle günü düzenle",
+    "target": 2,
+    "reward": { "mood": 10, "social": 4 },
+    "locationId": "home",
+    "npcId": "ayla",
+    "cityReputation": ["duzenli", "sosyal"]
+  },
+  {
+    "id": "quest_square_city_tour",
+    "label": "Kerem ile şehir turu yap",
+    "target": 2,
+    "reward": { "social": 8, "skill": 3 },
+    "locationId": "square",
+    "npcId": "kerem",
+    "cityReputation": ["sosyal"]
+  },
+  {
+    "id": "quest_business_mentor_check",
+    "label": "Bora ile kariyer planını gözden geçir",
+    "target": 2,
+    "reward": { "skill": 8, "money": 20 },
+    "locationId": "business",
+    "npcId": "bora",
+    "cityReputation": ["caliskan", "duzenli"]
+  },
+  {
+    "id": "quest_mall_style_swap",
+    "label": "Nil ile stil değişimi yap",
+    "target": 2,
+    "reward": { "mood": 10, "social": 5 },
+    "locationId": "mall",
+    "npcId": "nil",
+    "cityReputation": ["yaratici"]
+  },
+  {
+    "id": "quest_gym_training_partner",
+    "label": "Mert ile antrenman ortağı ol",
+    "target": 2,
+    "reward": { "energy": 10, "skill": 5 },
+    "locationId": "gym",
+    "npcId": "mert",
+    "cityReputation": ["duzenli"]
+  }
+]

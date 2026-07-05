@@ -1,0 +1,82 @@
+[
+  {
+    "id": "barista",
+    "name": "Barista",
+    "locationIds": ["cafe"],
+    "mentorNpcId": "ece",
+    "miniGame": "Sipariş eşleştirme",
+    "reputationTags": ["caliskan", "sosyal"],
+    "levels": [
+      { "level": 1, "title": "Çırak", "xpToNext": 0, "incomeBonus": 0, "unlockLabel": "Ece seni tezgahta izlemeye başladı." },
+      { "level": 2, "title": "Asistan", "xpToNext": 60, "incomeBonus": 4, "unlockLabel": "Vardiya geliri arttı, Ece yeni siparişler emanet ediyor." },
+      { "level": 3, "title": "Uzman", "xpToNext": 140, "incomeBonus": 8, "unlockLabel": "Kafenin en hızlı barista'sı oldun, müşteriler seni soruyor." },
+      { "level": 4, "title": "Tanınan Profesyonel", "xpToNext": 240, "incomeBonus": 14, "unlockLabel": "Ece vardiya planını sana bırakıyor." },
+      { "level": 5, "title": "Şehir Uzmanı", "xpToNext": 360, "incomeBonus": 22, "unlockLabel": "Şehirde adın barista ustası olarak biliniyor." }
+    ],
+    "questChainIds": ["quest_cafe_first_shift", "quest_cafe_signature_drink", "quest_cafe_regulars"]
+  },
+  {
+    "id": "developer",
+    "name": "Yazılımcı",
+    "locationIds": ["business", "school"],
+    "mentorNpcId": "deniz",
+    "miniGame": "Hata ayıklama",
+    "reputationTags": ["caliskan", "duzenli"],
+    "levels": [
+      { "level": 1, "title": "Çırak", "xpToNext": 0, "incomeBonus": 0, "unlockLabel": "Deniz sana ilk küçük görevi verdi." },
+      { "level": 2, "title": "Asistan", "xpToNext": 60, "incomeBonus": 4, "unlockLabel": "Kulüpte küçük bug'ları tek başına çözüyorsun." },
+      { "level": 3, "title": "Uzman", "xpToNext": 140, "incomeBonus": 8, "unlockLabel": "Deniz seni proje ortağı ilan etti." },
+      { "level": 4, "title": "Tanınan Profesyonel", "xpToNext": 240, "incomeBonus": 14, "unlockLabel": "İş Merkezi'nde adın geçiyor." },
+      { "level": 5, "title": "Şehir Uzmanı", "xpToNext": 360, "incomeBonus": 22, "unlockLabel": "Şehrin aranan yazılımcılarından biri oldun." }
+    ],
+    "questChainIds": ["quest_business_first_bug", "quest_business_client_project", "quest_business_lead_dev"]
+  },
+  {
+    "id": "photographer",
+    "name": "Fotoğrafçı",
+    "locationIds": ["park", "square", "mall"],
+    "mentorNpcId": "lina",
+    "miniGame": "Kadraj ve zamanlama",
+    "reputationTags": ["yaratici", "sosyal"],
+    "levels": [
+      { "level": 1, "title": "Çırak", "xpToNext": 0, "incomeBonus": 0, "unlockLabel": "Lina sana ilk kareleri gösterdi." },
+      { "level": 2, "title": "Asistan", "xpToNext": 60, "incomeBonus": 4, "unlockLabel": "Kendi çekimlerini paylaşmaya başladın." },
+      { "level": 3, "title": "Uzman", "xpToNext": 140, "incomeBonus": 8, "unlockLabel": "Lina seni ortak çekimlere davet ediyor." },
+      { "level": 4, "title": "Tanınan Profesyonel", "xpToNext": 240, "incomeBonus": 14, "unlockLabel": "AVM vitrinleri senin karelerinle süsleniyor." },
+      { "level": 5, "title": "Şehir Uzmanı", "xpToNext": 360, "incomeBonus": 22, "unlockLabel": "Şehrin gözdesi fotoğrafçısı sensin." }
+    ],
+    "questChainIds": ["quest_park_first_shoot", "quest_park_style_series", "quest_park_gallery_feature"]
+  },
+  {
+    "id": "doctor",
+    "name": "Doktor",
+    "locationIds": ["hospital", "school"],
+    "mentorNpcId": "arda",
+    "miniGame": "Teşhis eşleştirme",
+    "reputationTags": ["yardimsever", "duzenli"],
+    "levels": [
+      { "level": 1, "title": "Çırak", "xpToNext": 0, "incomeBonus": 0, "unlockLabel": "Dr. Arda seni gözlem altında tutuyor." },
+      { "level": 2, "title": "Asistan", "xpToNext": 60, "incomeBonus": 4, "unlockLabel": "Basit teşhisleri tek başına yapıyorsun." },
+      { "level": 3, "title": "Uzman", "xpToNext": 140, "incomeBonus": 8, "unlockLabel": "Dr. Arda seni güvenilir buluyor." },
+      { "level": 4, "title": "Tanınan Profesyonel", "xpToNext": 240, "incomeBonus": 14, "unlockLabel": "Hastane seni gönüllü koordinatörü yaptı." },
+      { "level": 5, "title": "Şehir Uzmanı", "xpToNext": 360, "incomeBonus": 22, "unlockLabel": "Şehirde saygın bir doktor oldun." }
+    ],
+    "questChainIds": ["quest_hospital_first_checkup", "quest_hospital_diagnosis_streak", "quest_hospital_head_volunteer"]
+  },
+  {
+    "id": "interior_designer",
+    "name": "İç Mimar",
+    "locationIds": ["home", "mall"],
+    "mentorNpcId": "selin",
+    "miniGame": "Oda düzeni",
+    "reputationTags": ["yaratici", "duzenli"],
+    "levels": [
+      { "level": 1, "title": "Çırak", "xpToNext": 0, "incomeBonus": 0, "unlockLabel": "Selin sana ilk dekor önerilerini verdi." },
+      { "level": 2, "title": "Asistan", "xpToNext": 60, "incomeBonus": 4, "unlockLabel": "Kendi oda düzenlerini denemeye başladın." },
+      { "level": 3, "title": "Uzman", "xpToNext": 140, "incomeBonus": 8, "unlockLabel": "Selin seni AVM vitrin düzenine dahil etti." },
+      { "level": 4, "title": "Tanınan Profesyonel", "xpToNext": 240, "incomeBonus": 14, "unlockLabel": "Komşuların evini senden danışmanlık istiyor." },
+      { "level": 5, "title": "Şehir Uzmanı", "xpToNext": 360, "incomeBonus": 22, "unlockLabel": "Şehrin aranan iç mimarı oldun." }
+    ],
+    "questChainIds": ["quest_mall_first_consult", "quest_mall_showcase_room", "quest_mall_signature_style"]
+  }
+]
