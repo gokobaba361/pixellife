@@ -39,6 +39,15 @@ for (const npc of npcs) {
   if (!locationById.has(npc.locationId)) {
     throw new Error(`NPC ${npc.id} points to missing location ${npc.locationId}`);
   }
+  (npc.questChainIds ?? []).forEach((chainQuestId) => {
+    const chainQuest = questById.get(chainQuestId);
+    if (!chainQuest) {
+      throw new Error(`NPC ${npc.id} quest chain points to missing quest ${chainQuestId}`);
+    }
+    if (chainQuest.npcId !== npc.id) {
+      throw new Error(`Quest ${chainQuestId} in ${npc.id} chain must have npcId ${npc.id}`);
+    }
+  });
 }
 
 for (const profession of professions) {

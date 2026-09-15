@@ -31,7 +31,8 @@
       "doctor": "Sağlıklı şehir etkinliği için birlikte çalışabiliriz.",
       "photographer": "Spor salonu için dinamik bir çekim isterim.",
       "barista": "Vardiya sonrası esnemeyi unutma."
-    }
+    },
+    "questChainIds": ["quest_gym_train_with_mert", "quest_gym_training_partner"]
   },
   {
     "id": "lina",
@@ -111,7 +112,8 @@
       "interior_designer": "Evinin düzenini merak ediyorum.",
       "doctor": "Mahallede sağlık kontrolü iyi olurdu.",
       "photographer": "Eski aile fotoğraflarını düzenler misin?"
-    }
+    },
+    "questChainIds": ["quest_home_settle", "quest_home_together"]
   },
   {
     "id": "bora",
@@ -127,7 +129,8 @@
       "barista": "Hizmet kaliten kariyer panosunda görünüyor.",
       "developer": "Teknik görevler için uygun görünüyorsun.",
       "doctor": "Hastane gönüllülüğü iyi bir başlangıç."
-    }
+    },
+    "questChainIds": ["quest_business_meet_bora", "quest_business_mentor_check"]
   },
   {
     "id": "nil",
@@ -143,7 +146,8 @@
       "photographer": "Yeni kombinleri çekmek ister misin?",
       "interior_designer": "Vitrin düzeni için fikrin lazım.",
       "barista": "Kafe üniformasını biraz canlandırabiliriz."
-    }
+    },
+    "questChainIds": ["quest_mall_first_style", "quest_mall_style_swap"]
   },
   {
     "id": "kerem",
@@ -159,6 +163,7 @@
       "barista": "Kafe etkinliği seni bekliyor.",
       "developer": "Meydan panosunu dijitale taşımak iyi fikir.",
       "photographer": "Şehrin bugün güzel bir açısı var."
-    }
+    },
+    "questChainIds": ["quest_square_meet_kerem", "quest_square_city_tour"]
   }
 ]
